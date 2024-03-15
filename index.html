@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Seat Reservation</title>
+</head>
+
+<body>
+    <a href="#" id="reserve">Reserve Seats</a>
+    <section id="resForm">
+        <h2>Complete This Form To Confirm Your Reservation</h2>
+        <p id="selectedSeats">You have selected X seats</p>
+        <form id="confirmed">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" placeholder="Bob">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" placeholder="Jones">
+            <input type="submit" id="confirm" value="confirm Reservation">
+            <p>Or <a href="#" id="cancel">Cancel</a> and choose differents seats</p>
+        </form>
+    </section>
+    <div id="seats"></div>
+</body>
+
+</html>
